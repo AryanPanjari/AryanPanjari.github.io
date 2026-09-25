@@ -1,237 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Aryan Panjari — Web Developer</title>
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aryan Panjari — Full-Stack Developer</title>
+<meta name="description" content="Aryan Rajendra Panjari — Full-Stack Web Developer and Computer Engineering student in Mumbai.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <nav>
-    <span class="nav-logo">AP</span>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
+<header>
+  <nav class="wrap">
+    <a href="#top" class="brand">AP</a>
+    <button class="navtoggle" id="navToggle" aria-label="Toggle menu">☰</button>
+    <div class="navlinks" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#freelance">Freelance</a>
+      <a href="#contact">Contact</a>
+    </div>
   </nav>
+</header>
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="hero-tag">Available for Internships & Freelance</div>
-    <h1>Aryan<br><span class="accent">Rajendra</span><br>Panjari</h1>
-    <p class="hero-sub">Full Stack Web Developer · Mumbai, India</p>
-    <p class="hero-desc">2nd year Engineering student who builds clean, functional web applications — from backend PHP systems to interactive JavaScript experiences. I turn ideas into working products.</p>
-    <div class="hero-cta">
-      <a href="#projects" class="btn-primary">View My Work</a>
-      <a href="#contact" class="btn-ghost">Get In Touch</a>
+<main id="top">
+  <div class="wrap hero">
+    <div class="status"><span class="dot"></span> Open to internships &amp; freelance work</div>
+    <h1>Aryan Rajendra Panjari</h1>
+    <div class="role">Full-Stack Web Developer &amp; Computer Engineering student, Mumbai</div>
+    <p class="lead">I build backend systems in PHP and MySQL and pair them with clean, functional front ends — then edit the occasional video in DaVinci Resolve. Currently in my third year at St. Francis Institute of Technology, looking for internships and freelance projects.</p>
+    <div class="hero-links">
+      <a class="btn primary" href="#projects">View projects</a>
+      <a class="btn ghost" href="mailto:panjariaryan09@gmail.com">Get in touch</a>
     </div>
-    <div class="hero-stats">
-      <div class="stat"><span class="stat-num">2+</span><span class="stat-label">Years Coding</span></div>
-      <div class="stat"><span class="stat-num">3+</span><span class="stat-label">Projects Built</span></div>
-      <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Technologies</span></div>
-    </div>
-  </section>
+  </div>
 
-  <!-- ABOUT -->
-  <section class="about" id="about">
-    <div class="section-label">// about me</div>
-    <div class="about-grid">
-      <div class="about-text">
-        <h2>Building things that <span class="accent">actually work.</span></h2>
-        <p>I'm a 2nd year Computer Engineering student at Mumbai with a passion for building real, functional web applications. I don't just follow tutorials — I take concepts and push them further, adding my own features and thinking through the logic myself.</p>
-        <p>I've built a full-stack Alumni Portal for my college, complete with login systems, donation flows, and email notifications. I've also built interactive JavaScript games from scratch, applying DRY principles and clean code architecture.</p>
-        <p>Currently deepening my JavaScript knowledge while actively seeking internship opportunities and freelance projects where I can contribute real value.</p>
-      </div>
-      <div class="about-card">
-        <div class="card-line"><span class="mono">name</span><span>Aryan Rajendra Panjari</span></div>
-        <div class="card-line"><span class="mono">role</span><span>Full Stack Developer</span></div>
-        <div class="card-line"><span class="mono">education</span><span>B.E. Computer Engineering</span></div>
-        <div class="card-line"><span class="mono">year</span><span>2nd Year (2024–2028)</span></div>
-        <div class="card-line"><span class="mono">location</span><span>Mumbai, India</span></div>
-        <div class="card-line"><span class="mono">status</span><span class="available">● Open to Work</span></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SKILLS -->
-  <section class="skills" id="skills">
-    <div class="section-label">// skills & tools</div>
-    <h2>What I Work With</h2>
-    <div class="skills-grid">
-      <div class="skill-group">
-        <div class="skill-group-title">Frontend</div>
-        <div class="skill-tags">
-          <span class="tag">HTML5</span>
-          <span class="tag">CSS3</span>
-          <span class="tag">JavaScript</span>
-          <span class="tag">Flexbox</span>
-          <span class="tag">CSS Grid</span>
+  <section id="about">
+    <div class="wrap">
+      <div class="label">About</div>
+      <h2>A student who ships full projects, not just exercises.</h2>
+      <div class="about-grid">
+        <div>
+          <p>I'm a Computer Engineering student at St. Francis Institute of Technology, Mumbai, currently in my third year with a CGPA of 8.42/10. I like building things end-to-end — I've written the backend, wired up the database, and shipped the front end for every project on this page.</p>
+          <p>Most recently I completed a two-week web development internship at InAmigos Foundation, working on real client-facing tasks in PHP, MySQL and JavaScript. Outside of coursework, I take on freelance web builds for small local businesses and I'm working through a DaVinci Resolve course to formalise video editing as a second skill.</p>
         </div>
-      </div>
-      <div class="skill-group">
-        <div class="skill-group-title">Backend</div>
-        <div class="skill-tags">
-          <span class="tag">PHP</span>
-          <span class="tag">MySQL</span>
-          <span class="tag">Oracle DB</span>
-          <span class="tag">PHPMailer</span>
-        </div>
-      </div>
-      <div class="skill-group">
-        <div class="skill-group-title">Languages</div>
-        <div class="skill-tags">
-          <span class="tag">Java</span>
-          <span class="tag">JavaScript</span>
-          <span class="tag">PHP</span>
-          <span class="tag">SQL</span>
-        </div>
-      </div>
-      <div class="skill-group">
-        <div class="skill-group-title">Tools</div>
-        <div class="skill-tags">
-          <span class="tag">Git</span>
-          <span class="tag">GitHub</span>
-          <span class="tag">VS Code</span>
-          <span class="tag">XAMPP</span>
-          <span class="tag">cPanel</span>
+        <div class="facts">
+          <div><span class="k">Education</span><span class="v">B.E. Computer Engineering, SFIT Mumbai</span></div>
+          <div><span class="k">Graduating</span><span class="v">2028</span></div>
+          <div><span class="k">Based in</span><span class="v">Mumbai, India</span></div>
+          <div><span class="k">Status</span><span class="v">Open to internships &amp; freelance</span></div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- PROJECTS -->
-  <section class="projects" id="projects">
-    <div class="section-label">// projects</div>
-    <h2>Things I've Built</h2>
-    <div class="projects-grid">
-
-      <div class="project-card featured">
-        <div class="project-tag">Full Stack · Featured</div>
-        <h3>Alumni Connect Portal</h3>
-        <p>A complete alumni networking platform built for a college community. Features secure login & registration, donation system with UPI payments, events listing, club pages, faculty directory, and email notification system using PHPMailer.</p>
-        <div class="project-tech">
-          <span>PHP</span><span>MySQL</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/AryanPanjari/Alumni-Association" target="_blank" class="btn-ghost-sm">GitHub →</a>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <div class="project-tag">JavaScript · Game</div>
-        <h3>Guess My Number</h3>
-        <p>A 5-level progressive number guessing game. Each level increases the number range and decreases attempts. Features dynamic background colors per level, highscore tracking, and win/lose states.</p>
-        <div class="project-tech">
-          <span>JavaScript</span><span>HTML</span><span>CSS</span>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/AryanPanjari/guess-my-number" target="_blank" class="btn-ghost-sm">GitHub →</a>
-          <a href="https://aryanpanjari.github.io/guess-my-number" target="_blank" class="btn-ghost-sm">Live Demo →</a>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <div class="project-tag">Frontend · Demo Project</div>
-          <h3>Glow Salon Website</h3>
-          <p>A modern responsive salon website built as a business demo. Features hero section, services showcase, image gallery, contact form and smooth animations. Designed for beauty salons and personal care brands.</p>
-          <div class="project-tech">
-          <span>HTML</span><span>CSS</span>
-          <span>JavaScript</span>
-      </div>
-          <div class="project-links">
-            <a href="https://github.com/AryanPanjari/Salon" target="_blank" class="btn-ghost-sm">GitHub →</a>
-            <a href="https://aryanpanjari.github.io/Salon" target="_blank" class="btn-ghost-sm">Live Demo →</a>
-          </div>
-      </div>
-      <div class="project-card coming-soon">
-        <div class="project-tag">Coming Soon</div>
-        <h3>Pig Game</h3>
-        <p>A two-player dice game where strategy matters. Players accumulate scores but risk losing their turn score by rolling a 1. First to 100 wins.</p>
-        <div class="project-tech">
-            <span>JavaScript</span><span>HTML</span><span>CSS</span>
-        </div>
-      </div>
-      
-      <div class="project-card">
-            <div class="project-tag">Full Stack · PHP · MySQL</div>
-                <h3>Foodie's Restaurant</h3>
-                <p>A full-stack restaurant website with multi-page menu, add-to-cart system, order storage in MySQL, and contact form with email notifications via PHPMailer.</p>
-            <div class="project-tech">
-            <span>PHP</span><span>MySQL</span><span>JavaScript</span>
-            <span>HTML</span><span>CSS</span><span>PHPMailer</span>
-        </div>
-        <div class="project-links">
-            <a href="https://github.com/AryanPanjari/foodie-s-restaurant" target="_blank" class="btn-ghost-sm">GitHub →</a>
-        </div>
-    </div>
-      
-      <div class="project-card coming-soon">
-        <div class="project-tag">Coming Soon</div>
-        <h3>Product Showcase</h3>
-        <p>A dynamic product catalogue with real-time category filtering, search functionality, and clean card layout. Perfect showcase of DOM manipulation skills.</p>
-        <div class="project-tech">
-          <span>JavaScript</span><span>HTML</span><span>CSS</span>
-        </div>
-      </div>
-
-      <div class="project-card coming-soon">
-        <div class="project-tag">Coming Soon</div>
-        <h3>Business Landing Page</h3>
-        <p>A conversion-focused business landing page with hero section, services, testimonials, and a fully functional PHP contact form with email notifications.</p>
-        <div class="project-tech">
-          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span>
-        </div>
-      </div>
-
+  <section id="skills">
+    <div class="wrap">
+      <div class="label">Skills</div>
+      <h2>What I work with</h2>
+      <div class="skill-row"><div class="cat">Languages</div><div>PHP, JavaScript, Java, SQL, Python</div></div>
+      <div class="skill-row"><div class="cat">Frontend</div><div>HTML5, CSS3, JavaScript (DOM, Fetch API, Events)</div></div>
+      <div class="skill-row"><div class="cat">Backend</div><div>PHP, MySQL, Oracle DB, PHPMailer, PDO</div></div>
+      <div class="skill-row"><div class="cat">Tools</div><div>Git, GitHub, VS Code, XAMPP, cPanel</div></div>
+      <div class="skill-row"><div class="cat">Video editing</div><div>DaVinci Resolve — cut &amp; edit, colour correction and grading, audio mixing, motion graphics</div></div>
     </div>
   </section>
 
-  <!-- SERVICES -->
-  <section class="services" id="services">
-    <div class="section-label">// services</div>
-    <h2>What I Can Build For You</h2>
-    <div class="services-grid">
-      <div class="service-card">
-        <div class="service-icon">01</div>
-        <h3>Business Website</h3>
-        <p>A clean, professional multi-page website for your business. Includes home, about, services, and contact pages. Mobile responsive and fast loading.</p>
-        <div class="service-price">Starting ₹3,000</div>
+  <section id="projects">
+    <div class="wrap">
+      <div class="label">Projects</div>
+      <h2>Things I've built end to end</h2>
+
+      <div class="project">
+        <div class="project-top"><h3>Alumni Connect Portal</h3><span class="tag">Team project · PHP backend developer</span></div>
+        <p>A full-stack alumni networking portal for a college community, with a secure login and registration system built on PHP sessions and PDO prepared statements, a UPI donation flow with PHPMailer email notifications, and events, club and faculty directory pages.</p>
+        <div class="stack"><span class="chip">PHP</span><span class="chip">MySQL</span><span class="chip">JavaScript</span><span class="chip">PHPMailer</span></div>
+        <div class="project-links"><a href="https://github.com/AryanPanjari/Alumni-Association" target="_blank" rel="noopener">GitHub</a></div>
       </div>
-      <div class="service-card">
-        <div class="service-icon">02</div>
-        <h3>Contact Form with PHP</h3>
-        <p>A fully functional contact form that sends emails directly to your inbox. Built with PHP and validated on both frontend and backend.</p>
-        <div class="service-price">Starting ₹2,000</div>
+
+      <div class="project">
+        <div class="project-top"><h3>Foodie's Restaurant Website</h3><span class="tag">Full stack developer</span></div>
+        <p>A multi-page restaurant site with a JavaScript cart system that posts order data to a PHP backend via the Fetch API, orders stored in MySQL with prepared statements, and a PHPMailer contact form with order summary emails.</p>
+        <div class="stack"><span class="chip">PHP</span><span class="chip">MySQL</span><span class="chip">JavaScript</span><span class="chip">PHPMailer</span></div>
+        <div class="project-links"><a href="https://github.com/AryanPanjari/foodie-s-restaurant" target="_blank" rel="noopener">GitHub</a></div>
       </div>
-      <div class="service-card">
-        <div class="service-icon">03</div>
-        <h3>Bug Fixing</h3>
-        <p>Got a broken website? I'll diagnose and fix HTML, CSS, JavaScript, or PHP issues quickly and cleanly without breaking anything else.</p>
-        <div class="service-price">Starting ₹1,500</div>
+
+      <div class="project">
+        <div class="project-top"><h3>Glow Salon Website</h3><span class="tag">Frontend developer · client demo</span></div>
+        <p>A responsive 5-page salon business website — home, about, services, gallery and contact — built as a portfolio piece to demonstrate frontend client work, with a JavaScript mobile nav toggle and a services grid and gallery.</p>
+        <div class="stack"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span></div>
+        <div class="project-links"><a href="https://github.com/AryanPanjari/glow-salon" target="_blank" rel="noopener">GitHub</a><a href="https://aryanpanjari.github.io/Salon" target="_blank" rel="noopener">Live demo</a></div>
+      </div>
+
+      <div class="project">
+        <div class="project-top"><h3>Guess My Number</h3><span class="tag">Frontend developer</span></div>
+        <p>A 5-level progressive browser game built with vanilla JavaScript, using reusable functions and object-based level configuration, with dynamic UI changes and highscore tracking. Deployed live on GitHub Pages.</p>
+        <div class="stack"><span class="chip">JavaScript</span><span class="chip">HTML</span><span class="chip">CSS</span></div>
+        <div class="project-links"><a href="https://github.com/AryanPanjari/guess-my-number" target="_blank" rel="noopener">GitHub</a><a href="https://aryanpanjari.github.io/guess-my-number" target="_blank" rel="noopener">Live demo</a></div>
       </div>
     </div>
   </section>
 
-  <!-- CONTACT -->
-  <section class="contact" id="contact">
-    <div class="section-label">// contact</div>
-    <h2>Let's Work Together</h2>
-    <p class="contact-sub">Whether you have a project in mind, want to offer an internship, or just want to say hi — my inbox is open.</p>
-    <div class="contact-links">
-      <a href="mailto:panjariaryan09@gmail.com" class="btn-primary">Send Email</a>
-      <a href="https://github.com/AryanPanjari" target="_blank" class="btn-ghost">GitHub Profile</a>
+  <section id="experience">
+    <div class="wrap">
+      <div class="label">Experience</div>
+      <h2>Internship &amp; recognition</h2>
+
+      <div class="entry">
+        <div class="when">Jun 2026</div>
+        <div>
+          <h3>Web Development Intern</h3>
+          <div class="org">InAmigos Foundation · 2-week internship</div>
+          <p>Applied PHP, MySQL and JavaScript to build and maintain client-facing web applications. Received a completion certificate and a Letter of Recommendation from the Founder &amp; CEO.</p>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="when">Sep 2026</div>
+        <div>
+          <h3>Agentic AI Hackathon '26</h3>
+          <div class="org">Product Space · Certificate of participation</div>
+          <p>Participated in the Agentic AI Hackathon, hosted by Product Space.</p>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="when">2026</div>
+        <div>
+          <h3>BuildForge Hackathon</h3>
+          <div class="org">Organised by invoqe, via Unstop</div>
+          <p>Represented SFIT, Mumbai in Round 1 — Idea Submission.</p>
+        </div>
+      </div>
+
+      <div class="label" style="margin-top:36px;">Certifications</div>
+      <div class="cred-grid">
+        <div class="cred"><div class="n">PHP &amp; MySQL — Certification Course for Beginners</div><div class="s">Udemy · 3.5 hours</div></div>
+        <div class="cred"><div class="n">The Git &amp; GitHub Bootcamp</div><div class="s">Udemy, Colt Steele · 17 hours</div></div>
+        <div class="cred"><div class="n">Node JS</div><div class="s">Unstop</div></div>
+        <div class="cred"><div class="n">DaVinci Resolve Mastery</div><div class="s">Udemy · currently in progress</div></div>
+      </div>
     </div>
   </section>
 
-  <footer>
-    <p>© 2026 Aryan Rajendra Panjari · Built with HTML, CSS & JavaScript</p>
-  </footer>
+  <section id="freelance">
+    <div class="wrap">
+      <div class="label">Freelance</div>
+      <h2>What I can build for your business</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Business website</h3>
+          <p>A clean, mobile-responsive multi-page site — home, about, services and contact.</p>
+          <div class="price">From ₹3,000</div>
+        </div>
+        <div class="service">
+          <h3>PHP contact form</h3>
+          <p>A working contact form that emails your inbox, validated on both ends.</p>
+          <div class="price">From ₹2,000</div>
+        </div>
+        <div class="service">
+          <h3>Bug fixing</h3>
+          <p>Diagnosing and fixing HTML, CSS, JavaScript or PHP issues cleanly.</p>
+          <div class="price">From ₹1,500</div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <script src="script.js"></script>
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <div class="label">Contact</div>
+      <h2>Let's work together</h2>
+      <p>Open to internship opportunities, freelance projects and anything in between — my inbox is open.</p>
+      <div class="contact-links">
+        <a class="btn primary" href="mailto:panjariaryan09@gmail.com">panjariaryan09@gmail.com</a>
+        <a class="btn ghost" href="https://github.com/AryanPanjari" target="_blank" rel="noopener">GitHub profile</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>© 2026 Aryan Rajendra Panjari — Mumbai, India</footer>
+
+<script src="script.js"></script>
 </body>
 </html>

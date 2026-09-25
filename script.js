@@ -1,17 +1,6 @@
-// Active nav link on scroll
-const sections = document.querySelectorAll('section');
-const navLinks = document.querySelectorAll('nav ul a');
-
-window.addEventListener('scroll', () => {
-  let current = '';
-  sections.forEach(section => {
-    const sectionTop = section.offsetTop - 100;
-    if (window.scrollY >= sectionTop) current = section.getAttribute('id');
+document.getElementById('navToggle').addEventListener('click', function(){
+    document.getElementById('navLinks').classList.toggle('open');
   });
-  navLinks.forEach(link => {
-    link.style.color = '';
-    if (link.getAttribute('href') === `#${current}`) {
-      link.style.color = '#a78bfa';
-    }
+  document.querySelectorAll('.navlinks a').forEach(function(a){
+    a.addEventListener('click', function(){ document.getElementById('navLinks').classList.remove('open'); });
   });
-});
